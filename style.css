@@ -12,7 +12,6 @@ body {
 
 }
 
-/* font-family: "Ubuntu", sans-serif; */
 
 /* font-family: "Overpass", sans-serif; */
 
@@ -26,6 +25,10 @@ header {
 .header {
     background:  hsl(356, 100%, 66%);
     padding: 20px;
+}
+
+.logo {
+    font-family: "Ubuntu", sans-serif;
 }
 
 nav {
