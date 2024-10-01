@@ -89,18 +89,14 @@ nav ul li {
     padding: 40px 0 140px 0;
 }
 
-.bg-pattern img {
-    position: absolute;
-    width: 170%;
-    top: -80%;
-    left: -70%;
-    opacity: 50%;
-    width: 290%;
-    /* border-image-slice: 20px; */
-    
-
-
+.btn-one {
+    padding: 10px;
+    border-radius: 30px;
+    /* outline: none; */
+    border: none;
 }
+
+
 
 .description h1 {
     font-weight: 500;
