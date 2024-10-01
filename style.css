@@ -25,19 +25,16 @@ header {
     justify-content: center;
     align-items: center;
 }
-.header {
-    
-    
-    background-image: url(/images/bg-pattern-intro-mobile.svg);
-    background: linear-gradient(hsl(13, 100%, 72%),hsl(353, 100%, 62%));    
-    background-position: 20% 50%;
-    background-size: 150%;
+.header {    
+    background-image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(165deg, hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+    background-position: 35% 34%;
+    background-size: 270%;
     background-repeat: no-repeat;
     padding: 20px;
     text-align: center;
     color: hsl(0, 0%, 100%);
     position: relative;
-    border-bottom-left-radius: 70px;
+    border-bottom-left-radius: 90px;
     border: 1px black solid;
 }
 
