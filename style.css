@@ -25,9 +25,9 @@ header {
     justify-content: center;
     align-items: center;
 }
-.header {    
+.hero {    
     background-image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(165deg, hsl(13, 100%, 72%),hsl(353, 100%, 62%));
-    background-position: 35% 34%;
+    background-position: 32% 37%;
     background-size: 270%;
     background-repeat: no-repeat;
     padding: 20px;
