@@ -30,7 +30,8 @@ header {
     background-position: 32% 37%;
     background-size: 270%;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 24px;
+    padding-bottom: 170px;
     text-align: center;
     color: hsl(0, 0%, 100%);
     position: relative;
@@ -86,15 +87,19 @@ nav ul li {
 }
 
 .cta-btn {
-    padding: 40px 0 140px 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-one {
-    padding: 10px;
+    /* padding: 12px; */
     border-radius: 30px;
-    /* outline: none; */
     border: none;
+    font-weight: 700;
+    color: hsl(353, 100%, 62%);
 }
+
 
 
 
