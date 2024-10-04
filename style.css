@@ -92,13 +92,25 @@ nav ul li {
     justify-content: center;
 }
 
-.btn-one {
-    /* padding: 12px; */
+.cta-btn button{
+    padding: 12px;
     border-radius: 30px;
     border: none;
     font-weight: 700;
     color: hsl(353, 100%, 62%);
 }
+.btn-one {
+    padding-right: 17.5px;
+}
+
+.section-2 h2 {
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
 
 
 
