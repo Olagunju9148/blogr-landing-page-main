@@ -103,12 +103,24 @@ nav ul li {
     padding-right: 17.5px;
 }
 
+.btn-two button{
+    background: transparent;
+    border: 1px white solid;
+    color: hsl(0, 0%, 100%);
+}
+
 .section-2 h2 {
     font-family: "Overpass", sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    font-weight: 700;
+    font-size: 26px;
+    font-weight: 500;
+    color: hsl(237, 17%, 21%);
+}
+
+.section-2 img{
+    width: 375px;
 }
 
 
