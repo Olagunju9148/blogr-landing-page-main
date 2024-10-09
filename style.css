@@ -121,9 +121,11 @@ nav ul li {
 }
 
 .section-2 h2{
-    
-    
     margin-bottom: 0;
+}
+
+span {
+    display: block;
 }
 
 .section-2 img{
