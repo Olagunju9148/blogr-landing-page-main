@@ -109,19 +109,31 @@ nav ul li {
     color: hsl(0, 0%, 100%);
 }
 
-.section-2 h2 {
+.section-2 h2, .section-2 h1 {
     font-family: "Overpass", sans-serif;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    font-size: 26px;
+    align-items: center;
+    margin: 100px 0;
+    font-size: 23px;
     font-weight: 500;
-    color: hsl(237, 17%, 21%);
+    color: hsl(237, 23%, 32%);
+}
+
+.section-2 h2{
+    
+    word-break: break-all;
+    margin-bottom: 0;
 }
 
 .section-2 img{
     width: 375px;
 }
+
+/* .flexbox-section {
+    display: flex;
+    flex-direction: row-reverse;
+} */
 
 
 
