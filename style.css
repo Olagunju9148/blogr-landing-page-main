@@ -6,7 +6,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    outline: 1px limegreen solid;
+    /* outline: 1px limegreen solid; */
 }
 
 /* body {
@@ -25,7 +25,7 @@ header {
     align-items: center;
 }
 .hero {    
-    background-image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(165deg, hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+    background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg), linear-gradient(165deg, hsl(13, 100%, 72%),hsl(353, 100%, 62%));
     background-position: 32% 37%;
     background-size: 270%;
     background-repeat: no-repeat;
@@ -80,10 +80,12 @@ nav ul li {
 .hero-context {
     font-family: "Overpass", sans-serif;
     font-weight: 300;
-    /* display: block; */
-    /* justify-content: center; */
     padding: 80px 0;
     
+}
+
+.hero-context span {
+    display: block;
 }
 
 .cta-btn {
@@ -111,31 +113,60 @@ nav ul li {
 
 .section-2 h2, .section-2 h1{
     font-family: "Overpass", sans-serif;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    margin: 100px 0;
+    margin: 50px 0;
     font-size: 23px;
     font-weight: 500;
     color: hsl(237, 23%, 32%);
-}
 
-span{
-    display: block;
-}
-
-
-
-
-.section-2 h2{
-    margin-bottom: 0;
-
-    
 }
 
 .section-2 img{
     width: 375px;
 }
+
+.section-2 h1{
+    text-align: center;
+}
+
+.section-2 h2 {
+    padding-inline: 100px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+
+}
+
+.section-2 p{
+    text-align: center;
+    font-size: 18px;
+    color: hsl(207, 13%, 34%);
+    padding-inline: 26px;
+}
+
+.section-3 {
+    background-image: url(/blogr-landing-page-main/images/bg-pattern-circles.svg), linear-gradient(150deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    position: relative;
+    top: 200px;
+    background-position-y: -100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    padding-block: 40px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.mock-up img {
+    width: 100%;
+    position: relative;
+    top: -200px;
+  
+
+    /* border-top-right-radius: 190px; */
+   
+}
+
+
+
 
 /* .flexbox-section {
     display: flex;
